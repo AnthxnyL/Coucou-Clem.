@@ -418,6 +418,11 @@
         @include flex (flex-start, center);
         gap : 50px;
 
+        &::-webkit-scrollbar {
+            display: none;
+        }
+
+
         &__text {
             @include flex (center, flex-start, column);
             gap : 24px;
@@ -451,7 +456,7 @@
         &__cards {
             @include flex (center, center);
             gap : 20px;
-
+           
             &__card {
                 padding: 30px 24px;
                 @include size (420px, auto);

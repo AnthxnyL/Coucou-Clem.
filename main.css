@@ -1281,6 +1281,9 @@ a {
   flex-direction: row;
   gap: 50px;
 }
+.homepage-section-3__flex::-webkit-scrollbar {
+  display: none;
+}
 .homepage-section-3__flex__text {
   display: flex;
   justify-content: center;
